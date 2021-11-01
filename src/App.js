@@ -1,10 +1,8 @@
-import  React from "react"
+import  React , {useState} from "react"
 import Profile from "./components/Profile"
 import About from "./components/About"
 import Skills from "./components/Skills"
 import Education from "./components/Education"
-
-
 import "./App.css";
 
 function App() {
@@ -15,16 +13,18 @@ function App() {
 });
 
   return (
-    <>
-    <div className="lift">
-       <Profile profile={cv.profile} />
+    <div className="container">
+        <div className="lift">
+            <Profile profile={cv.profile} />
+        </div>
+        <div className="right">
+            <About about={cv.about} />
+            <hr></hr>
+            <Skills skills={cv.skills} />
+            <hr></hr>
+            <Education education={cv.education} />
+        </div>
     </div>
-    <div className="right">
-       <About about={cv.about} />
-       <Skills skills={cv.skills} />
-       <Education education={cv.education} />
-    </div>
-    </>
       
     
   );

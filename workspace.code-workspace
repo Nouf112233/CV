@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "node_modules",
+			"path": "..\\..\\..\\my-app\\node_modules"
+		},
+		{
+			"name": "CV",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

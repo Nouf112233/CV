@@ -1,41 +1,14 @@
-import React, { Component } from 'react'
-import "./style.css"
+import React from 'react';
 
-export default class Main extends Component {
-    render() {
-        return (
-            const App = props => {
-  const { jsonObj: { basics, work, skills, education } } = props
-  const profileData = basics;
-  const aboutData = profileData.summary;
-  const workData = work;
-  const skillsData = skills;
-  const educationData = education;
-  // console.log(profileData)
+
+const About = props => {
+  
   return (
-    <div className="container">
-      <aside>
-        <div className="inner">
-          <Profile profileData={profileData} />
-        </div>
-      </aside>
-      <main>
-        <div className="inner">
-          <About aboutData={aboutData} />
-          <Work workData={workData} />
-          <Skills skillsData={skillsData} />
-          <Education educationData={educationData} />
-        </div>
-      </main>
+    <div className="about">
+      <h2 > About</h2>
+      <p>{props}</p>
     </div>
-    )
+  );
 };
 
-App.propTypes = {
-    jsonObj: object.isRequired
-}
-
-export default App;
-        )
-    }
-}
+export default About;
