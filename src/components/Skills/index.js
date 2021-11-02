@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Skills = props => {
+const Skills = (props) => {
   
-    const getSkills = props.map(function(item, index) {
-      return (<li key={index}><span>{item}</span></li>)
+    const getSkills = props.skills.map((item, index) =>{
+      return (<li key={index}>{item}</li>)
     });
 
   	return (
-  	  <section className="skills">
+  	  <div className="skills">
         <h2> Skills</h2>
         <ul>{getSkills}</ul>
-      </section>
+      </div>
   	)
 };
 

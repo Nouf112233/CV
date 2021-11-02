@@ -3,9 +3,9 @@ import React from 'react';
 
 const Education = props => {
 	
-	const getEducation = props.map((item, index) => {
+	const getEducation = props.education.map((item, index) => {
 		return (
-				<h3 key={index}>{item}</h3>
+				<h6 key={index}>{item}</h6>
 			)
 	});
 

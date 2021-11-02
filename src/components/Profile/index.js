@@ -5,17 +5,17 @@ const Profile = props => {
   
   return (
     <div>
-      <div className="profileImg"><img  src={props.img}  alt="profile pic" /></div>
-      <h1 >{props.name}</h1>
-      <h2 >{props.carrer}</h2>
+      <div className="profileImg"><img  src={props.profile.img}  alt="profile pic" /></div>
+      <h1 >{props.profile.name}</h1>
+      <h2 >{props.profile.carrer}</h2>
       <hr></hr>
       <ul >
-        <li>{props.cuntry}</li>
-        <li><a href={`mailto:${props.email}`}>{props.email}</a></li>
+        <li>{props.profile.cuntry}</li>
+        <li><a href={`mailto:${props.profile.email}`}>{props.profile.email}</a></li>
       </ul>
       <hr></hr>
       <ul >
-        <li><a  href={props.github}><span >github</span></a></li>
+        <li><a  href={props.profile.github}><span >github</span></a></li>
       </ul>
       <hr></hr>
       
