@@ -8,6 +8,9 @@
 .lift , .right{
   border: 2px solid black;
 }
+.lift{
+  height: 600px;
+}
 
 
 

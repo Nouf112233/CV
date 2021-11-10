@@ -1,13 +1,23 @@
 import React from 'react';
+import "./style.css"
 
 
 const About = props => {
   
   return (
     <div className="about">
-      <h2 > About</h2>
-      <p>{props.about}</p>
+      <div className="main">
+        
+        <h2>ABOUT</h2>
+      </div>
+      <div className="container">
+        <hr className="line" />
+      </div>
+      <div className="text">
+        <p>{props.about}</p>
+      </div>
     </div>
+    
   );
 };
 

@@ -1,0 +1,18 @@
+.container {
+    margin: 1rem 0 5rem;
+  }
+  
+  .element {
+    margin: 1rem;
+    font-family: "Arial Narrow", Arial, sans-serif;
+  }
+  .education h2{
+    font-size: 139%;
+    font-weight: 552;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    color: rgb(83, 81, 81);
+  }
+  
+  
+ 

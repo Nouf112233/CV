@@ -1,0 +1,32 @@
+.about {
+    margin: 1rem 0 5rem;
+  }
+  
+  .main {
+    margin: 2rem 1rem 1rem;
+    display: flex;
+    color: gray;
+  }
+  
+
+  
+  .main h2 {
+    font-size: 139%;
+    font-weight: 552;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .text {
+    margin: 1rem;
+    font-family: "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .line {
+    opacity: 0.3;
+    width: 95%;
+  }
