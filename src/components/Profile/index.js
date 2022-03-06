@@ -6,7 +6,7 @@ const Profile = props => {
   
   return (
     <div className="infoWrapper">
-      <div className="felx-container"><img  src="./img/cv.jpg"  alt="profile pic" className="profileImage" /></div>
+      {/* <div className="felx-container"><img  src="./img/cv.jpg"  alt="profile pic" className="profileImage" /></div> */}
       <div className="felx-container"><h1 className="name">{props.profile.name}</h1></div>
       <div className="felx-container"><h2 className="jobTitle">{props.profile.carrer}</h2></div>
       <hr className="line" />

@@ -3,9 +3,9 @@ import "./style.css"
 
 const Skills = (props) => {
   
-    const getSkills = props.skills.map((item, index) =>{
-      return (<li key={index}>{item}</li>)
-    });
+    // const getSkills = props.skills.map((item, index) =>{
+    //   return (<li key={index}>{item}</li>)
+    // });
 
   	return (
       <div className="container">
@@ -18,7 +18,9 @@ const Skills = (props) => {
       </div>
       <div className="containerLi">
         <ul className="list">
-        {getSkills}
+        {props.skills.map((item, index) =>{
+      return (<li key={index}>{item}</li>)
+    })}
         </ul>
       </div>
     </div>

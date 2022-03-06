@@ -1,20 +1,30 @@
 .container {
+  width:100%;
     margin: 1rem 0 5rem;
   }
   
   .containerLi {
-    margin: 1rem;
+    width: 100%;
+    /* margin: 1rem; */
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   
   .list {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content:space-between;
+    /* align-items: center; */
     gap: 25px;
-    margin-left: 250px;
+    /* margin-left: 10px; */
     color: rgb(66, 65, 65);
     
   
+  }
+  li{
+    width: 100%;
+    
+    font-family: "Arial Narrow", Arial, sans-serif;
   }
   .title h2{
     font-size: 139%;
