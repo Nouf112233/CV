@@ -21,6 +21,7 @@ const Projects = (props) => {
           return (
             <div key={index}>
               <p>**{item.name}</p>
+              {item.info&&<p>{item.info}</p>}
               {item.link&&<p><a href={item.link}>heroku link</a></p>}
               {item.github&&<p><a href={item.github}>github link</a></p>}
               {item.disc&& <p>{item.disc}</p>}
